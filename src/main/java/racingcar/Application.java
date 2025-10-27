@@ -2,8 +2,8 @@ package racingcar;
 
 import racingcar.view.InputView;
 import racingcar.view.OutputView;
-import racingcar.view.domain.CarName;
-import racingcar.view.domain.NameParser;
+import racingcar.domain.CarName;
+import racingcar.domain.NameParser;
 
 import java.util.List;
 
