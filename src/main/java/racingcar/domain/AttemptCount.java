@@ -28,4 +28,8 @@ public final class AttemptCount {
 
         return new AttemptCount(count);
     }
+
+    public int value() {
+        return value;
+    }
 }
