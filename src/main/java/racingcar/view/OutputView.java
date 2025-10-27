@@ -1,15 +1,13 @@
 package racingcar.view;
 
 import racingcar.domain.Car;
-import racingcar.domain.CarName;
-
 import java.util.List;
 
-public class OutputView {
+public final class OutputView {
     private OutputView() {}
 
-    public static void printMessage(String msg) {
-        System.out.println(msg);
+    public static void printStart() {
+        System.out.println("실행 결과");
     }
 
     public static void printRound(List<Car> cars) {
